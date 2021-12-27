@@ -59,7 +59,7 @@ nav {
 }
 
 .menu a.selection {
-    color: yellow;
+    text-decoration: underline;
 }
 
 .menu li:hover,
