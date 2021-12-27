@@ -10,126 +10,102 @@
 </head>
 
 <body>
-    <div class="page">
-        <div id="pagehaut">
-            <header>
-                <div>
-                    <!--<img src="ressources/baniere2M.png">-->
-                    <div class="page_haut">
-                        <h1>Simulation de vol</h1>
-
-                    </div>
-                </div>
-            </header>
-        </div>
-        <div>
-            <div class="pagebas">
-                <nav>
-                    <div class="page_nav">
-                        <h3>Menu de navigation</h3>
-                        <ul>
-                            <li><a href="index.html"> Accueil</a></li>
-                            <li><a href="Psimu.html"> Présentation du simulateur</a></li>
-                            <li><a href="aeronefs.html">Les différents aéronefs</a></li>
-                            <li><a href="PequipementMin.html"> L'équipement minimal</a></li>
-                            <ul>
-                                <li>Les "manettes"</li>
-                                <li>L'ordinateur</li>
-                            </ul>
-                            <li>Les tuto</li>
-                            <ul>
-                                <li>Démarrage du simulateur</li>
-                                <li>Démarrage des avions</li>
-                                <li>Démarrage du simulateur</li>
-                                <li>Démarrage des avions</li>
-                                <li>Le vol</li>
-                                <ul>
-                                    <li>Décollage</li>
-                                    <li>Atterissage</li>
-                                </ul>
-                                <li>Le combat AA</li>
-                                <ul>
-                                    <li>Dogfight canon</li>
-                                    <li>Missile IR</li>
-                                    <li>Missile Radar</li>
-                                </ul>
-                            </ul>
-                        </ul>
-                    </div>
-                </nav>
-                <section>
-                    <div class="page_milieu">
-                        <aside>
-                            <h2>Les prérequis :</h2>
-                            <div>
-                                <h4>Les "manettes" :</h4>
-                            </div>
-                        </aside>
-                        <article>
-                            <p>
-                                Pour jouer à Dcs il vous faudra un minimum de matérel. Pour être dans de bonnes conditions il faut impérativement un (un manche à balais) car piloter <br> au clavier est très laborieux car il faut être précis dans ses mouvements
-                                (au clavier c'est impossible). La meilleur chose à avoir est un H.O.T.A.S. <br> HOTAS sont les initiales de : Hand on throtle and stick. C'est à dire : avoir une main sur la manette des gaz et l'autre sur le stick. <br>                                Voici un exemple de HOTAS (ici un logitech X52pro):
-                            </p>
-                            <img src="ressources/x52pro.png" title="X52pro" alt="Image d'un HOTAS X52pro" />
-
-                        </article>
-                        <article>
-                            <div>
-                                <h4>L'ordinateur :</h4>
-                            </div>
-                            <p>
-                                Essayer de recrer des situations réels grâce à un ordinateur n'est pas une chose facile. Il faut donc un ordinateur plutôt conséquent pour pouvoir jouer <br> dans de bonnes conditions. Voici un tableau récapitulatif des
-                                composants nécessaire pour jouer en 1080p :
-                            </p>
-                            <table>
-                                <tr>
-                                    <td>
-                                        </th>
-                                        <td>Minimum </th>
-                                            <td>Recommandé </th>
-                                </tr>
-
-                                <tr>
-                                    <td>Cpu </td>
-                                    <td>Intel Core i3 ou Amd Ryzen 3</td>
-                                    <td>Intel Core i5 ou Amd Ryzen 5</td>
-                                </tr>
-                                <tr>
-                                    <td>Gpu </td>
-                                    <td>Gtx 760 ou R9 280x</td>
-                                    <td>Gtx 1070 ou Vega 56</td>
-                                </tr>
-                                <tr>
-                                    <td>Ram</td>
-                                    <td>8/16go</td>
-                                    <td>16go</td>
-                                </tr>
-                                <tr>
-                                    <td>Stockage</td>
-                                    <td>120Gb hdd</td>
-                                    <td>120Gb ssd</td>
-                                </tr>
-                            </table>
-
-                        </article>
-                    </div>
-                </section>
+    <div class="conteneur">
+        <header>
+            <div class="titre">
+                <h1>Simulation de vol</h1>
             </div>
-            <footer>
-                <div class="piedpage">
-                    <p>En savoir plus sur moi</p>
-                    <p>
-                        <a href="mailto:lamouchedu54@gmail.com">
-                            <img src="ressources/email-outline.svg" class="socialmedia">
-                        </a>
-                        <a href="https://www.instagram.com/lamouchedu94/" target="blank">
-                            <img class="socialmedia" src="ressources/instagram.svg">
-                        </a>
-                    </p>
-                    <p>Copyright Paul Cassan </p>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html"> Accueil</a></li>
+                    <li><a href="Psimu.html"> Présentation du simulateur</a></li>
+                    <li><a href="aeronefs.html" class="selection">Les différents aéronefs</a></li>
+                    <li><a href="PequipementMin.html"> L'équipement minimal</a>
+                        <ul>
+                            <li><a href="#">Les "manettes"</a></li>
+                            <li><a href="#">L'ordinateur</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Les tutos <br>&darr;</a>
+                        <ul>
+                            <li><a>Démarrage du simulateur</a></li>
+                            <li><a>Démarrage des avions</a></li>
+                            <li><a>Le vol</a> </li>
+                            <li><a>Le combat A/A</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <h1>Les prérequis :</h1>
+                <h2>Les "manettes" :</h2>
+                <p>
+                    Pour jouer à Dcs il vous faudra un minimum de matériel. Pour être dans de bonnes conditions il faut impérativement un (un manche à balais) car piloter <br> au clavier est très laborieux car il faut être précis dans ses mouvements (au
+                    clavier c'est impossible). La meilleur chose à avoir est un H.O.T.A.S. <br> HOTAS sont les initiales de : Hand on throttle and stick. C'est à dire : avoir une main sur la manette des gaz et l'autre sur le stick. <br> Voici un exemple
+                    de HOTAS (ici un logitech X52pro):
+                </p>
+                <img src="ressources/x52pro.png" title="X52pro" alt="Image d'un HOTAS X52pro" />
+
+            </article>
+            <article>
+                <div>
+                    <h2>L'ordinateur :</h2>
                 </div>
-            </footer>
-        </div>
+                <p>
+                    Essayer de recréer des situations réels grâce à un ordinateur n'est pas une chose facile. Il faut donc un ordinateur plutôt conséquent pour pouvoir jouer <br> dans de bonnes conditions. Voici un tableau récapitulatif des composants
+                    nécessaire pour jouer en 1080p :
+                </p>
+                <table>
+                    <tr>
+                        <td>
+                            </th>
+                            <td>Minimum </th>
+                                <td>Recommandé </th>
+                    </tr>
+
+                    <tr>
+                        <td>Cpu </td>
+                        <td>Intel Core i3 ou Amd Ryzen 3</td>
+                        <td>Intel Core i5 ou Amd Ryzen 5</td>
+                    </tr>
+                    <tr>
+                        <td>Gpu </td>
+                        <td>Gtx 760 ou R9 280x</td>
+                        <td>Gtx 1070 ou Vega 56</td>
+                    </tr>
+                    <tr>
+                        <td>Ram</td>
+                        <td>8/16go</td>
+                        <td>16go</td>
+                    </tr>
+                    <tr>
+                        <td>Stockage</td>
+                        <td>120Gb hdd</td>
+                        <td>120Gb ssd</td>
+                    </tr>
+                </table>
+
+            </article>
+
+        </section>
+
+        <footer>
+            <p>En savoir plus sur moi</p>
+            <p>
+                <a href="mailto:lamouchedu54@gmail.com">
+                    <img src="ressources/email-outline.svg" class="socialmedia">
+                </a>
+                <a href="https://www.instagram.com/lamouchedu94/" target="blank">
+                    <img class="socialmedia" src="ressources/instagram.svg">
+                </a>
+            </p>
+            <p>Copyright Paul Cassan </p>
+
+        </footer>
+    </div>
 </body>
 
 </html>
