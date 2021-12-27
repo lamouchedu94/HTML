@@ -62,8 +62,7 @@ nav {
     text-decoration: underline;
 }
 
-.menu li:hover,
-a:hover {
+.menu li:hover a:hover {
     color: rgb(137, 138, 138);
     background-color: #444444;
 }
