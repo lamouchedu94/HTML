@@ -154,6 +154,11 @@ a {
     color: rgb(68, 0, 255);
 }
 
+.eplus {
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}
+
 
 /* a:hover {
     color: rgb(137, 138, 138);
