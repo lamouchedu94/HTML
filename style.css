@@ -1,6 +1,11 @@
+/* le corp de la page */
+
 body {
     background-color: rgb(192, 189, 189);
 }
+
+
+/* permet d'avoir toute la page dans une clas ici pour limiter la taille max */
 
 .conteneur {
     margin: 0 auto;
@@ -12,6 +17,9 @@ header {
     display: flex;
     height: 60px;
 }
+
+
+/* permet d'afficher correctement le titre (celui en haut à gauche) */
 
 .titre {
     color: rgb(255, 255, 255);
@@ -30,6 +38,9 @@ nav {
     position: relative;
     background-color: #444444;
 }
+
+
+/* toutes les propriétés .menu servent à afficher le menu déroulant */
 
 .menu {
     height: 60px;
@@ -74,9 +85,15 @@ nav {
     padding: 0;
 }
 
+
+/* découvre le menu caché à la ligne 82 (display : none) */
+
 .menu li:hover ul {
     display: block;
 }
+
+
+/* fond du menu qui apparaît  */
 
 .menu li ul li {
     background-color: #444444;
@@ -93,6 +110,9 @@ section {
     margin-left: 5px;
 }
 
+
+/* ajouter flexblox au menu du bas (En savoir plus, logo et copyright) (tout s'affiche au centre quelque soit la taille de la page)*/
+
 .pagebas {
     display: flex;
 }
@@ -105,20 +125,24 @@ footer {
     color: white;
 }
 
+
+/* ajouter flexblox pour les image (notamment dans la page : les différents aéronefs) */
+
 .image {
     display: flex;
     flex-wrap: wrap;
     margin: 5px;
 }
 
-#avion {
-    display: flex;
-    flex-wrap: wrap;
-}
+
+/* affiche le nom des avions au centré par rapport à l'image (notamment dans la page : les différents aéronefs) */
 
 .nomAvion {
     text-align: center;
 }
+
+
+/* Définit la taille et l'espacement entre les différente images présentes en pied de page (github, mail et instagram) */
 
 .socialmedia {
     margin-right: 5px;
@@ -144,15 +168,24 @@ table {
     margin: 5px;
 }
 
+
+/* Propriété utilisé pour le tableau. Bordure de 1px et ainsi qu'une marge sur la gauche de 5px */
+
 td,
 th {
     border: 1px solid black;
     margin-left: 5px;
 }
 
-a {
+
+/* affiche les lien avec un bleu plus clair lorsque la souris survol un lien */
+
+a:hover {
     color: rgb(68, 0, 255);
 }
+
+
+/* eplus = en savoir plus. Propriété uniquement dédié lien qui mène vers la page en savoir plus. Permet d'afficher le href en blanc */
 
 .eplus {
     color: rgb(255, 255, 255);
