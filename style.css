@@ -5,7 +5,7 @@ body {
 }
 
 
-/* permet d'avoir toute la page dans une clas ici pour limiter la taille max */
+/* permet d'avoir toute la page dans une class ici pour limiter la taille max */
 
 .conteneur {
     margin: 0 auto;
@@ -69,9 +69,15 @@ nav {
     display: block;
 }
 
+
+/* Permet de souligner dans le menu la page dans laquelle nous sommes. Ex : si nous sommes dans la page accueil, accueil sera souligné. */
+
 .menu a.selection {
     text-decoration: underline;
 }
+
+
+/* Change la couleur du texte quand la souris survol un élément dans le menu */
 
 .menu li:hover a:hover {
     color: rgb(137, 138, 138);
@@ -191,8 +197,3 @@ a:hover {
     color: rgb(255, 255, 255);
     font-style: normal;
 }
-
-
-/* a:hover {
-    color: rgb(137, 138, 138);
-} */
