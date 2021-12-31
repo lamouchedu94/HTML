@@ -1,6 +1,11 @@
 # chapitre 5 Architecture et réseaux 2
 
-## HTML et CSS :
+## Travail à rendre
+- Le site : https://lamouchedu94.github.io/Nsi1/index.html
+- Le source: https://github.com/lamouchedu94/Nsi1/releases
+
+## Consignes
+### HTML et CSS :
 
 Le web, conçu comme un outil ouvert, collaboratif et émancipateur, a été détourné par des escrocs et des trolls, qui
 l’ont utilisé pour manipuler le reste des internautes à travers le monde. Tim Berners-Lee, inventeur du web
@@ -17,7 +22,7 @@ Plus qu’un devoir, les trois parties du présent document sont un guide préci
 faire à acquérir en suivant le cours en ligne. Vous devez utiliser ces notions en élaborant votre site web et être
 capable à la rentrée de répondre à toutes ces questions.
 
-## Partie 1 : Les balises html.
+### Partie 1 : Les balises html.
 1) Que signifient les sigles HTML et CSS ? Années d’apparition de ces langages ? Expliquer succintement les termes
 Hypertext et Cascading.
 2) Quelle est la différence fondamentale entre HTML et CSS ?
@@ -30,7 +35,7 @@ Hypertext et Cascading.
 9) Savoir insérer une image dans une page web.
 10) Savoir ajouter des commentaires dans le code de la page.
 
-## Partie 2 : Feuille de style
+### Partie 2 : Feuille de style
 1) Savoir attacher un fichier CSS à une page html via la balise <link .../>
 2) Savoir ajouter des commentaires dans le code de la feuille.
 3) Savoir modifier l’apparence (couleur, taille, fond, bordure,...) d’une partie de la page.
@@ -38,7 +43,7 @@ Hypertext et Cascading.
 5) Utiliser les attributs id et class (quelle différence entre les deux ?)
 6) À quoi servent les balises `<div>` et `<span>` ? Quelle différence entre les deux ?
 
-## Partie 3 :.Approfondissement
+### Partie 3 :.Approfondissement
 1) Savoir améliorer la structure de la page avec les balises `<header>`, `<footer>`, `<nav>`, `<section>`,...
 2) Connaître la différence entre une balise block et une balise inline. De quel type sont les principales balises.
 3) Savoir modifier les dimensions d’un bloc, modifier les marges, mettre une bordure...
