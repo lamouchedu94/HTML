@@ -5,7 +5,7 @@ body {
 }
 
 
-/* permet d'avoir toute la page dans une class ici pour limiter la taille max */
+/* permet d'avoir toute la page dans une classe ici pour limiter la taille max */
 
 .conteneur {
     margin: 0 auto;
@@ -40,7 +40,7 @@ nav {
 }
 
 
-/* toutes les propriétés .menu servent à afficher le menu déroulant */
+/* toutes les propriétés .menu servent à afficher le menu */
 
 .menu {
     height: 60px;
@@ -59,14 +59,18 @@ nav {
     padding: 0;
     margin: 0;
     background-color: #444444;
+    border-left: 1px solid #ccc9c9;
 }
 
 .menu a {
     padding: 18px 0;
-    border-left: 1px solid #ccc9c9;
     text-decoration: none;
     color: white;
     display: block;
+}
+
+.menu a:visited {
+    color: white;
 }
 
 
@@ -92,7 +96,7 @@ nav {
 }
 
 
-/* découvre le menu caché à la ligne 82 (display : none) */
+/* Rend visible le menu quand la souris passe sur l'option  qui est masquée normalement */
 
 .menu li:hover ul {
     display: block;
@@ -105,7 +109,7 @@ nav {
     background-color: #444444;
 }
 
-.menu li ul li a {
+.menu li ul li {
     border-left: 1px solid #444444;
     border-right: 1px solid #444444;
     border-top: 1px solid #c9d4d8;
@@ -141,7 +145,7 @@ footer {
 }
 
 
-/* affiche le nom des avions au centré par rapport à l'image (notamment dans la page : les différents aéronefs) */
+/* affiche le nom des avions au centre par rapport à l'image (notamment dans la page : les différents aéronefs) */
 
 .nomAvion {
     text-align: center;
@@ -175,7 +179,7 @@ table {
 }
 
 
-/* Propriété utilisé pour le tableau. Bordure de 1px et ainsi qu'une marge sur la gauche de 5px */
+/* Propriété utilisée pour le tableau. Bordure de 1px et ainsi qu'une marge sur la gauche de 5px */
 
 td,
 th {
@@ -184,16 +188,28 @@ th {
 }
 
 
-/* affiche les lien avec un bleu plus clair lorsque la souris survol un lien */
+/* affiche les lien avec un bleu plus clair lorsque la souris survole un lien */
 
 a:hover {
-    color: rgb(68, 0, 255);
+    color: rgb(19, 19, 19);
+}
+
+a:visited {
+    color: rgb(19, 19, 19);
 }
 
 
 /* eplus = en savoir plus. Propriété uniquement dédié lien qui mène vers la page en savoir plus. Permet d'afficher le href en blanc */
 
-.eplus {
+a.eplus {
     color: rgb(255, 255, 255);
     font-style: normal;
+}
+
+a:visited.eplus {
+    color: rgb(255, 255, 255);
+}
+
+a:hover.eplus {
+    color: rgba(255, 255, 255, 0.541);
 }
